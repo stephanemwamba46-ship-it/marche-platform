@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* DARK MODE GLOBAL */
+.dark{
+background:#0f172a;
+color:#e2e8f0;
+}
+/* BACKGROUNDS */
+.dark .bg-white{
+background:#1e293b;
+}
+.dark .bg-blue-50{
+background:#0f172a;
+}
+/* TEXTES */
+.dark .text-gray-600{
+color:#cbd5f5;
+}
+.dark .text-gray-800{
+color:#e2e8f0;
+}
+.dark .text-gray-400{
+color:#94a3b8;
+}
+/* CARDS */
+.dark .shadow-md,
+.dark .shadow-lg{
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+/* BORDERS */
+.dark .border-b{
+border-color:#334155;
+}
+
+.toolbar-btn {
+border: 1px solid #e5e7eb;
+padding: 6px 10px;
+border-radius: 8px;
+font-weight: 500;
+transition: 0.2s;
+}
+.toolbar-btn:hover {
+background: linear-gradient(
+to right,
+#6366f1,
+#8b5cf6
+);
+color: white;
+}
+.toolbar-select {
+border: 1px solid #e5e7eb;
+padding: 6px 10px;
+border-radius: 8px;
+}
+
+/* STYLE DU CONTENU EDITEUR */
+.ProseMirror h3 {
+font-size: 32px;
+font-weight: bold;
+margin-top: 12px;
+margin-bottom: 8px;
+}
+.ProseMirror h2 {
+font-size: 26px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 6px;
+}
+.ProseMirror h1 {
+font-size: 22px;
+font-weight: bold;
+margin-top: 8px;
+margin-bottom: 5px;
+}
+.ProseMirror blockquote {
+border-left: 4px solid #6366f1;
+padding-left: 12px;
+color: #555;
+font-style: italic;
+margin: 10px 0;
+}
+.ProseMirror p {
+margin-bottom: 6px;
+}
+.ProseMirror img {
+max-width: 100%;
+border-radius: 10px;
+margin-top: 10px;
+}
+.ProseMirror iframe {
+border-radius: 10px;
+margin-top: 10px;
+}
+
+.ProseMirror blockquote {
+border-left: 4px solid #6366f1;
+padding-left: 12px;
+font-style: italic;
+}

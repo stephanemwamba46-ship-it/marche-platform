@@ -1,0 +1,29 @@
+# Environnement Python
+venv/
+env/
+.venv/
+
+# Variables et secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers utilisateurs / médias locaux
+backend/marche/media/
+
+# Node
+lemarche_frontend/node_modules/
+
+# Build frontend
+lemarche_frontend/dist/
